@@ -13,3 +13,17 @@ inoremap <Up> <Nop>
 inoremap <Down> <Nop>
 inoremap <Left> <Nop>
 inoremap <Right> <Nop>
+
+" Disable End, Home, Page Up, Page Down keys in normal and insert modes
+noremap <End> <Nop>
+noremap <Home> <Nop>
+noremap <PageUp> <Nop>
+noremap <PageDown> <Nop>
+inoremap <End> <Nop>
+inoremap <Home> <Nop>
+inoremap <PageUp> <Nop>
+inoremap <PageDown> <Nop>
+
+" Disable Delete key in normal and insert modes
+noremap <Del> <Nop>
+inoremap <Del> <Nop>

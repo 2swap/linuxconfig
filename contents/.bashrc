@@ -132,3 +132,5 @@ export PS1="\u@\h \[\033[32m\]\w - \$(parse_git_branch)\[\033[00m\] $ "
 
 export PATH=$PATH:~/.local/bin
 alias huion='xinput map-to-output "HID 256c:006d Pen Pen (0)" "HDMI-0"'
+alias t='tmux'
+alias tmux='echo use shortcut t!'
